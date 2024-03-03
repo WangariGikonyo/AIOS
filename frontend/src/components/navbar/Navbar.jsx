@@ -2,8 +2,8 @@ import './Navbar.css'
 
 function Navbar() {
     return (
-        <div>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary container">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary ">
                 <div class="container-fluid ">
                     <a class="navbar-brand" href="#">AIOS</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

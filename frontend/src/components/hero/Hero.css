@@ -1,0 +1,43 @@
+.green-bg{
+    background-color: #4CAF50;
+}
+.green-bg-content{
+    display: grid;
+    grid-template-columns:50% 50%
+}
+.text-space{
+    color: #ffff;
+    font-family: "Roboto", sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.text-space .orange-text{
+    color: #FFC107;
+    font-weight: 600;
+}
+
+.carousel-image-div{
+    height: 250px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.carousel-image-div img{
+    height: 100%;
+    object-fit: contain;
+}
+.carousel-indicators [data-bs-target]{
+    border-bottom: unset !important;
+    height: 2px;
+}
+.carousel-indicators .active{
+    background-color: #FFC107 !important;
+}
+.carousel-indicators{
+    margin-bottom: unset !important;
+}
+.carousel-control-next{
+    display: none;
+}
+.carousel-control-prev{
+    display: none;
+}
