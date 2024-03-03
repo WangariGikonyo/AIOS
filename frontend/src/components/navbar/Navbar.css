@@ -1,0 +1,37 @@
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+    padding: 0;
+}
+.reddish{border: 1px solid red;}
+.blueish{border: 1px dashed blue;}
+.bg-body-tertiary{
+    padding: 0;
+    background-color: unset !important;
+}
+
+.navbar-expand-lg .navbar-nav{
+    margin-left: auto;
+    margin-right: unset !important;
+}
+.navbar-brand{
+    color: #FFC107;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Outfit", sans-serif;
+}
+.navbar-brand:focus, .navbar-brand:hover{
+    color: #FFC107;
+}
+.navbar-links .nav-link{
+    color:#333333;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    
+}
+.navbar-links .nav-link::first-letter{
+    color: #FFC107;
+    font-weight: 600;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: unset !important;
+    padding-left: 100px;
+}
