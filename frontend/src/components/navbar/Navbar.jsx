@@ -11,15 +11,30 @@ function Navbar() {
                     </button>
                     {/* Button only displays on mobile */}
                     <div class="  collapse navbar-collapse" id="navbarSupportedContent">
+                    
                         <ul class=" navbar-links navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                <div class=" search-col">
+                        <input type="search"
+                        placeholder="Search products"
+                        />
+                        <i class="fa fa-search"/>
+                    </div>
+                                </a>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link " aria-current="page" href="#">Products</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#">
+                                    <button><span className='l'>L</span>ogin</button>
+                                </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contacts</a>
+                            <li class="nav-item .cart">
+                                <a class="nav-link" href="#">
+                                <i class="fa fa-shopping-cart cart" aria-hidden="true"></i>
+                                </a>
                             </li>
                         </ul>
 

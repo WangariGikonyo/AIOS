@@ -1,6 +1,6 @@
 import './Cart.css'
 
-export function Cart() {
+export function Cart(items) {
   return (
     <div className="  container search-bar ">  
     <div className="row">
@@ -12,7 +12,7 @@ export function Cart() {
         </div>
         <div class="  col-md-6 cart-col">
             <div>
-        <i class="fa fa-shopping-cart" aria-hidden="true"></i> 0 items in your cart
+        <i class="fa fa-shopping-cart" aria-hidden="true"></i>  0 items in your cart
 
 
             </div>
